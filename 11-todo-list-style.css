@@ -1,0 +1,71 @@
+body {
+    font-family: system-ui;
+}
+
+.js-todo-list,
+.todo-list-grid {
+    display: grid;
+    grid-template-columns: 300px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+h1 {
+    font-weight: 600;
+    font-style: normal;
+}
+
+input {
+    width: 280px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin: 2px;
+    border: 1px solid gray;
+}
+
+.date {
+    width: 129px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.add {
+    font-size: 16px;
+    color: white;
+    background: darkgreen;
+    border: none;
+    padding: 8px 20px;
+}
+
+.delete-button {
+    font-size: 16px;
+    color: white;
+    background: darkred;
+    border: none;
+    padding: 11px 24px;
+}
+
+.todo-list-grid {
+    margin-bottom: 10px;
+}
+
+.date_ {
+    width: 127px;
+    padding: 10px;
+    margin-left: 3px;
+    font-size: 16px;
+    text-align: center;
+    align-self: center;
+    border: 1px solid gray;
+}
+
+.name {
+    width: 280px;
+    padding: 10px;
+    margin-left: 3px;
+    font-size: 16px;
+    border: 1px solid gray;
+    align-self: center;
+    text-align: center;
+}
